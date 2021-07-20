@@ -1,1 +1,1 @@
-worker: python rinexapp.py
+ worker: python rinexapp.py
