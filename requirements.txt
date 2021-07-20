@@ -1,2 +1,2 @@
 python-telegram-bot==13.0 
-install adafruit-io
+adafruit-io
