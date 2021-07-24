@@ -8,7 +8,7 @@ def lighton(bot,update):
   bot.message.reply_text("the light is on")
   val=1
   from Adafruit_IO import Client
-  aio = Client('kirran', 'aio_rNfG2347nDd0C7faT21cKTK5o6Px')
+  aio = Client('kirran', 'aio_CAWg83fKkth1jp4SjMy5q9dT8SsY')
 
 
   aio.send('light', val)
@@ -25,7 +25,7 @@ def lightoff(bot,update):
   bot.message.reply_text("the light is off")
   val=0
   from Adafruit_IO import Client
-  aio = Client('kirran', 'aio_rNfG2347nDd0C7faT21cKTK5o6Px')
+  aio = Client('kirran', 'aio_CAWg83fKkth1jp4SjMy5q9dT8SsY')
 
 
   aio.send('light', val)
@@ -41,7 +41,7 @@ def fanon(bot,update):
   bot.message.reply_text("the fan is on")
   val=1
   from Adafruit_IO import Client
-  aio = Client('kirran', 'aio_rNfG2347nDd0C7faT21cKTK5o6Px')
+  aio = Client('kirran', 'aio_CAWg83fKkth1jp4SjMy5q9dT8SsY')
 
 
   aio.send('fan', val)
@@ -58,7 +58,7 @@ def fanoff(bot,update):
   bot.message.reply_text("the fan is off")
   val=0
   from Adafruit_IO import Client
-  aio = Client('kirran', 'aio_rNfG2347nDd0C7faT21cKTK5o6Px')
+  aio = Client('kirran', 'aio_CAWg83fKkth1jp4SjMy5q9dT8SsY')
 
 
   aio.send('fan', val)
